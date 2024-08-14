@@ -1,0 +1,776 @@
+
+body{
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#section1{
+
+        width: 100%;
+        height: 1065px;
+        background-color: #FDF0F0;
+}
+
+nav{
+    width: 80%;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    left: 270px;
+    border-radius: 5px;
+    border-style: none;
+    display: flex;
+    justify-content: space-between;
+    input{
+        width: 350px;
+        height: 44px;
+        position: relative;
+        top: 10px;
+        left: 85px;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #D5BEBE
+    }
+}
+
+.subnav {
+    position: relative;
+    left: -119px;
+    top: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+
+aside{
+    width: 20%;
+    height: 1062px;
+    background-color: white;
+    position: relative;
+    top: -80px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+
+
+.logo{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+    left: 86px;
+    font-size: 18px;
+
+
+    span{
+        width: 50px;
+        height: 50px;
+        background-color: #071597;
+        border-radius: 30px;
+        border-style: none;
+        position: relative;
+        left: -18px;
+        top: 7px;
+
+    }
+}
+
+.btns{
+    position: relative;
+    top: 147px;
+    left: 28px;
+    width: 214px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    button{
+        width: 212px;
+        height: 54px;
+        background-color: #071597;
+        color: white;
+        border-radius: 15px;
+    border-style: none;
+
+    h1{
+            font-size: 20px;
+            position: relative;
+            top: -32px;
+            left: 10px;
+        }
+
+    }
+
+
+        img{
+            width: 24px;
+            height: 24px;
+            position: relative;
+            left: -75px;
+            top: 13px;
+        }
+    }
+
+    #det{
+        button{
+            background-color: #F0F2FE;
+            color: #676262;
+            font-size: 18px;
+            border-radius: 0px;
+            position: relative;
+            top: -5px;
+            width: 208px;
+        }
+    }
+
+#bb>:hover{
+    background-color: red;
+}
+
+    #btn2{
+        width: 209px;
+        height: 50px;
+        text-align: center;
+        border-radius: 12px;
+        font-size: 21px;
+
+       
+    }
+
+    #btn2{
+        color: black;
+        background-color: #F0F2FE;
+    }
+    #btn3{
+        color: black;
+        background-color: #F0F2FE;
+    }
+
+    #btn2:hover{
+        background-color: #071597;
+        color: white;
+    }
+    #btn3:hover{
+        background-color: #071597;
+        color: white;
+    }
+
+
+
+
+#sec2{
+    width: 1077px;
+    position: relative;
+    top: -1080px;
+    left: 272px;
+    height: 543px;
+    background-color: #FDF0F0;
+
+
+}
+#hh1{
+    width: 100px;
+    font-size: 32px;
+    position: relative;
+    top: 5px;
+    left: 34px;
+}
+
+.dash{
+    display: flex;
+    height: 117px;
+    position: relative;
+    left: 33px;
+    width: 727px;
+    gap: 27px;
+    text-align: center;
+h1{
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 26px;
+}
+
+    
+}
+
+#img1{
+    position: relative;
+    top: 8px;
+    left: -3px;
+    width: 26px;
+    height: 26px;
+}
+#img2{
+position: relative;
+top: 8px;
+    left: -61px;
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+.dash1{
+    width: 154px;
+    height: 106px;
+background-color: white;
+border-radius: 16px;
+}
+.dash2{
+    width: 154px;
+    height: 106px;
+    background-color: white;
+    border-radius: 16px;
+}
+.dash3{
+    width: 154px;
+    height: 106px;
+    background-color: white;
+    border-radius: 16px;
+}
+.dash4{
+    width: 154px;
+    height: 106px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+
+
+
+.top{
+    width: 255px;
+    height: 482px;
+    background-color: white;
+    position: relative;
+    left: 804px;
+    top: -120px;
+    border-radius: 16px;
+
+    h1{
+        text-align: center;
+        position: relative;
+        top: 17px;
+        font-size: 24px;
+    }
+}
+
+.text{
+    display: flex;
+    position: relative;
+    top: -13px;
+p{
+    width: 130px;
+    text-align: center;
+    color: #676262;
+    font-size: 14px;
+
+}
+span{
+width: 40px;
+height: 20px;
+position: relative;
+top: 16px;
+left: 43px;
+}
+}
+
+.sec3{
+    width: 776px;
+    left: 14px;
+    border-radius: 30px;
+    height: 367px;    background-color: white;
+    position: relative;
+    top: -466px;
+}
+
+
+.part1>:first-child{
+    font-size: 24px;
+    position: relative;
+    left: 25px;
+}
+
+.part1{
+    display: flex;
+
+    
+}
+
+#det2{
+    position: relative;
+    left: 492px;
+    top: 27px;
+    font-size: 18px;
+    display: flex;
+}
+#btns1{
+    background: #071597;
+    color: white;
+    border-radius: 12px;
+}
+#btns2{
+    background: #071597;
+    color: white;
+    border-radius: 12px;
+}
+#btns3{
+    background: #071597;
+    color: white;
+    border-radius: 12px;
+}
+
+.number{
+    width: 60px;
+    position: relative;
+    left: 24px;
+    text-align: center;
+}
+
+.bigcontinar{
+    display: flex;
+    width: 465px;
+    position: relative;
+    top: -246px;
+    left: 127px;
+    gap: 16px;
+}
+
+.continar{
+    width: 24px;
+    height: 230px;
+
+    background-color: #FDF0F0;
+}
+
+
+
+
+.bigcontinar>:first-child>:first-child{
+    width: 24px;
+    height: 96px;
+    background-color: #071597;
+    position: relative;
+    top: 134px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+}
+
+@keyframes bedo {
+
+    from{
+        transform: translateY(-200px);
+
+    }
+
+    to{
+        transform: translateY(0);
+    }
+    
+}
+@keyframes bedo2 {
+
+    from{
+        transform: translateY(-200px);
+
+    }
+
+    to{
+        transform: translateY(0);
+    }
+    
+}
+
+.bigcontinar>:nth-child(2)>:first-child{
+    width: 24px;
+    height: 55px;
+    background-color: #071597;
+    position: relative;
+    top: 175px;
+
+    animation-name: bedo2;
+    animation-duration: 3s;
+}
+.bigcontinar>:nth-child(3)>:first-child{
+    width: 24px;
+    height: 181px;
+    background-color: #071597;
+    position: relative;
+    top: 49px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+}
+.bigcontinar>:nth-child(4)>:first-child{
+    width: 24px;
+    height: 96px;
+    background-color: #071597;
+    position: relative;
+    top: 134px;
+
+    animation-name: bedo2;
+    animation-duration: 3s;
+}
+.bigcontinar>:nth-child(5)>:first-child{
+    width: 24px;
+    height: 150px;
+    background-color: #071597;
+    position: relative;
+    top: 80px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+}
+.bigcontinar>:nth-child(6)>:first-child{
+    width: 24px;
+    height: 96px;
+    background-color: #071597;
+    position: relative;
+    top: 134px;
+
+    animation-name: bedo2;
+    animation-duration: 3s;
+}
+.bigcontinar>:nth-child(7)>:first-child{
+    width: 24px;
+    height: 181px;
+    background-color: #071597;
+    position: relative;
+    top: 49px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+}
+.bigcontinar>:nth-child(8)>:first-child{
+    width: 24px;
+    height: 96px;
+    background-color: #071597;
+    position: relative;
+    top: 134px;
+
+    animation-name: bedo2;
+    animation-duration: 3s;
+}
+.bigcontinar>:nth-child(9)>:first-child{
+    width: 24px;
+    height: 55px;
+    background-color: #071597;
+    position: relative;
+    top: 175px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+}
+.bigcontinar>:nth-child(10)>:first-child{
+    width: 24px;
+    height: 230px;
+    background-color: #071597;
+    position: relative;
+    top: 0;
+
+    animation-name: bedo2;
+    animation-duration: 3s;
+}
+.bigcontinar>:nth-child(11)>:first-child{
+    width: 24px;
+    height: 181px;
+    background-color: #071597;
+    position: relative;
+    top: 49px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+}
+.bigcontinar>:nth-child(12)>:first-child{
+    width: 24px;
+    height: 96px;
+    background-color: #071597;
+    position: relative;
+    top: 134px;
+
+    animation-name: bedo2;
+    animation-duration: 3s;
+}
+
+
+
+.months{
+    display: flex;
+    position: relative;
+    top: -260px;
+    left: 123px;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lastsec{
+    width: 1055px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    left: 7px;
+    top: -429px;
+
+    
+}
+
+#lastsec>:first-child{
+    width: 150px;height: 18px;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#lastsec>:nth-child(2){
+    width: 1040px;
+    height: 40px;
+    background-color: #FDF0F0;
+    border-radius: 12px;
+    position: relative;
+    left: 10px;
+    display: flex;
+    gap: 148px;
+
+    h1{
+        text-align: center;
+        position: relative;
+        left: 26px;
+        top: -5px;
+        font-size: 13px;
+    }
+}
+
+.recent>:first-child{
+    display: flex;
+    gap: 87px;
+    position: relative;
+    left: 28px;
+    font-size: 14px;
+    color: #676262;
+}
+
+.recent>:nth-child(2){
+    display: flex;
+    gap: 98px;
+    position: relative;
+    left: 28px;
+    font-size: 14px;
+    color: #676262;
+}
+.recent>:nth-child(3){
+    display: flex;
+    gap: 104px;
+    position: relative;
+    left: 28px;
+    font-size: 14px;
+    color: #676262;
+}
+.recent>:nth-child(4){
+    display: flex;
+    gap: 101px;
+    position: relative;
+    left: 28px;
+    font-size: 14px;
+    color: #676262;
+}
+
+
+#det3{
+    button{
+        background-color: #F0F2FE;
+        color: #676262;
+        font-size: 18px;
+        border-radius: 0px;
+        position: relative;
+        top: -5px;
+        width: 208px;
+    }
+}
+
+#btn3{
+    width: 209px;
+    height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+#bb1:hover{
+    color: #071597;
+}
+#bb2:hover{
+    color: #071597;
+}
+#bb3:hover{
+    color: #071597;
+}
+#b1:hover{
+    color: #071597;
+}
+#b2:hover{
+    color: #071597;
+}
+#b3:hover{
+    color: #071597;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 368px;
+    background-color: #DAA520;
+    position: relative;
+    top: 0;
+    display: flex;
+
+    span{
+        display: inline-flex;
+        width: 41px;
+        height: 41px;
+        background: white;
+        border-radius: 20px;
+        border-style: none;
+        position: relative;
+        top: 13px;
+        left: -8px;
+    }
+
+
+
+}
+
+footer>:first-child{
+    height: 306px;
+    display: flex;
+    position: relative;
+    left: 170px;
+    top: 61px;
+    font-size: 20px;
+    color: white;
+    gap: 143px;
+
+    p{
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+
+    a{
+        color: white;
+    }
+}
+
+#logo2{
+    font-size: 18px;
+    height: 253px;
+    position: relative;
+    left: -64px;
+
+    p{
+        width: 310px;
+        height: 110px;
+        font-size: 16px;
+        position: relative;
+        top: 40px;
+        left: -7px;
+    }
+}
+#Company{   
+     height: 253px;
+     position: relative;
+     left: -124px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+#Links{
+    height: 253px;
+    position: relative;
+    left: -124px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+#Follow{
+    height: 253px;
+    position: relative;
+    left: -124px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#Follow>:nth-child(2){
+    display: flex;
+    gap: 11px;
+    i{
+        color: red;
+
+    }
+}
+#Follow>:nth-child(3){
+    display: flex;
+    gap: 11px;
+    i{
+        color: blue;
+
+    }}
+#Follow>:nth-child(4){
+    display: flex;
+    gap: 11px;
+    i{
+        color: blue;
+
+    }
+}
+#Follow>:nth-child(5){
+    display: flex;
+    gap: 11px;
+    i{
+        color: rgb(255, 0, 153);
+
+    }
+}
+

@@ -1,0 +1,113 @@
+body{
+    background-color: #D5BEBE;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+section{
+    position: relative;
+    top: 19px;
+    left: 25px;
+    width: 1300px;
+    height: 946px;
+
+   img{
+    height: 906px;
+
+   }
+}
+
+form{
+    position: relative;
+    left: 0;
+    height: 904px;
+    top: -910px;
+    width: 640px;
+    background-color: #231E1EB2;
+    text-align: center;
+  
+    
+
+}
+.logo{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+
+    span{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 40px;
+        border-style: none;
+        position: relative;
+        top: 11px;
+        left: -20px;
+    }
+}
+.text{
+    position: relative;
+    font-size: 24px;
+    color: white;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    label{
+        font-size: 18px;
+        color: white;
+    }
+    h1{
+        position: relative;
+        left: -229px;
+        font-size: 18px;
+    }
+    #name{
+        left:-215px;
+    }
+    #phone{
+        left: -193px;
+    }
+    
+    input{
+        width: 511px;
+        height: 62px;
+        background-color: white;
+        border-radius: 12px;
+        border-style: none;
+    }
+}
+
+button{
+    width: 510px;
+    height: 62px;
+    background-color: #071597;
+    position: relative;
+    top: 36px;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    border-style: none
+}
+
+form>:last-child{
+    h1{
+        position: relative;
+        top: 44px;
+        font-size: 18px;
+        color: white;
+        
+    }
+    a{
+        color: #071597;
+    }
+}

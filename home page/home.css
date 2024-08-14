@@ -1,0 +1,635 @@
+*{
+    a{
+        text-decoration: none;
+    }
+    font-family:"Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#part3{
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FDF0F0;
+    
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.homesec{
+    width: 100%;
+    height: 3720px;
+}
+
+/* Nav bar */
+
+nav{
+    width: 1376px;
+    height: 65px;
+    background-color: #FCFAFA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+
+    hr{
+        width: 0px;
+        height: 80px;
+        position: relative;
+        left: 20px;
+    }
+
+}
+
+/* logo part */
+
+.logo{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    left: 5px;
+    top: -5px;
+    display: flex;
+
+
+    span{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        background: #071597;
+        border-radius: 110px;
+        position: relative;
+        left: 77px;
+        top: 10px;
+    
+    }
+
+    h1{
+        position: relative;
+        left: 96px;
+        top: 1px;
+        font-size: 18px;
+    }
+
+}
+
+/* home part */
+
+.home{
+    width: 700px;
+    height: 60px;
+    display: flex;
+    gap: 32px;
+    position: relative;
+    left: 81px;
+    top: 12px;
+    color: #676262;
+    text-align: center;
+
+}
+
+.home>:first-child{
+    width: 200px;
+    height: 60px;
+}
+.home>:nth-child(2){
+    width: 200px;
+    height: 60px;
+}
+.home>:nth-child(3){
+    width: 200px;
+    height: 60px;
+    color: #071597;
+}
+.home>:nth-child(4){
+    width: 200px;
+    height: 60px;
+}
+/* Login part */
+.login{
+    position: relative;
+    left: -45px;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    top: -3px;
+
+
+}
+
+.login>:first-child{
+    width: 143px;
+    height: 42px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    border-color: white;
+    border-style: solid;
+    h1{
+        font-size: 14px;
+
+    }
+}
+.login>:nth-child(2){
+    width: 143px;
+    height: 42px;
+    background-color: #071597;
+    font-size: 20px;
+    border-radius: 12px;
+    border-color: #071597;
+    border-style: solid;
+    color: white;
+    h1{
+        font-size: 14px;
+
+    }
+}
+
+#firstpart{
+    display: flex;
+    width: 80%;
+    height: 560px;
+}
+
+.text{
+    position: relative;
+    left: 144px;
+    top: 60px;
+h1{
+    font-size: 38px;
+
+
+}
+p{
+    color: #676262;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+    button{
+        position: relative;
+        top: 25px;
+        left: -5px;
+        width: 230px;
+        height: 60px;
+        border-radius: 22px;
+        border-style: hidden;
+        background: #071597;
+        color: white;
+        font-size: 18px;
+
+    }
+}
+
+.img{
+  
+    img{
+        width: 710px;
+        height: 540px;
+        position: relative;
+        left: 282px;
+        border-bottom-left-radius: 137px;
+    }
+}
+
+#location{
+width: 80%;
+height: 130px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: relative;
+left: 121px;
+top: 20px;
+border-radius: 30px;
+
+
+input{
+    width: 231px;
+    height: 48px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    border-style: none;
+    box-shadow: 3px 0px 18px black;
+    text-align: center;
+}
+
+    button{
+        width: 230px;
+        height: 60px;
+        border-radius: 22px;
+        border-style: hidden;
+        background: #071597;
+        color: white;
+        font-size: 18px;    }
+}
+
+#part2{
+    h1{
+        width: 400px;
+        font-weight: 600;
+            font-size: 30px;
+
+
+    }
+    img{
+        width: 500px;
+        height: 400px;
+    }
+
+}
+
+#part2>:first-child{
+    width: 507px;
+
+    position: relative;
+    top: 91px;
+    left: 116px;
+}
+
+.text2{
+    position: relative;
+    bottom: 339px;
+    left: 767px;
+    width: 364px;
+    height: 430px;
+    font-size: 18px;
+  
+}
+
+.pro{
+
+    img{
+        position: relative;
+        top: -57px;
+        left: -54px;
+        width: 40px;
+        height: 40px;
+    }
+    p{
+        position: relative;
+        bottom: 98px;
+        color: gray;
+    }
+}
+#part2>.pro>:nth-child(2){
+    
+        width: 50px;
+        height: 50px;
+    
+}
+.travel{
+    position: relative;
+    bottom: 86px;
+img{
+    position: relative;
+    top: -57px;
+    left: -54px;
+    width: 40px;
+    height: 40px;
+}
+p{
+    position: relative;
+    bottom: 98px;
+    color: gray;
+}
+
+}
+.security{
+    position: relative;
+    bottom: 165px;
+    height: 120px;
+    img{
+        position: relative;
+        top: -57px;
+        left: -54px;
+        width: 40px;
+        height: 40px;
+    }
+    p{
+        position: relative;
+        bottom: 98px;
+        color: gray;
+    }
+  
+}
+
+#part3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 83%;
+    gap: 16px;
+    height: 858px;
+    position: relative;
+    left: 150px;
+    top: -192px;
+    background-color: #FDF0F0;
+
+ 
+}
+#part3>:first-child{
+    width: 771px;
+    height: 100px; 
+    
+    h1{
+        font-size: 27px;
+        width: 384px;
+        height: 95px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        font-weight: 700;
+    
+    }
+
+  
+}
+
+
+.card{
+    width: 350px;
+        height: 350px;
+        background-color: #FDF0F0;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+
+        img{
+            width: 88%;
+            height: 166px;
+            position: relative;
+            left: 21px;
+            top: 16px;
+        }
+        h1{
+            position: relative;
+            top: 14px;
+            left: 22px;
+            font-size: 27px;
+        }
+        span{
+            display: flex;
+            color: yellow;
+            gap: 30px;
+            position: relative;
+            left: 27px;
+        }
+        p{
+            font-size: 24px;
+    position: relative;
+    left: 24px;
+            color: gray;
+        }
+
+        strong{
+            color: #071597;
+        }
+       
+        
+}
+.card:hover{
+
+  
+    width: 350px;
+    height: 350px;
+    background-color: #FDF0F0;
+    border-radius: 20px;
+    border-style: none;
+    border-color: gray;
+    border-width: 2px;
+    box-shadow: 0px 0px 29px #071597;
+}
+
+
+
+.feedback{
+    width: 735px;
+    height: 295px;
+    background-color: #FDF0F0;
+    position: relative;
+    left: 300px;
+    top: 22px;
+    display: flex;
+    gap: 21px;
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    img{
+        width: 294px;
+        height: 292px;
+        position: relative;
+    }
+
+    span{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 30px;
+        border-style: none;
+        position: relative;
+        left: -7px;
+        top: -14px;
+    }
+
+    p{
+        width: 427px;
+
+        color: gray;
+        font-size: 18px;
+    }
+}
+
+.feedback>:nth-child(2)>:first-child{
+    display: flex;
+    position: relative;
+    top: 24px;
+    left: -3px;
+}
+.feedback>:nth-child(2){
+    display: grid;
+}
+
+#what{
+    position: relative;
+    top: -63px;
+    left: 541px;
+    font-size: 34px;
+    width: 374px;
+
+}
+
+#beforelast{
+    width: 100%;
+    height: 502px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+
+    h1{
+        
+        position: relative;
+        top: 100px;
+        left: 304px;
+        font-size: 36px;
+        width: 737px;
+        height: 100px;
+        font-family: 'Poppins';
+        font-weight: 400;
+
+    }
+    input{
+
+        position: relative;
+        top: 138px;
+        left: 190px;
+        width: 624px;
+        height: 82px;
+        border-radius: 20px;
+    }
+    button{
+        width: 228px;
+        height: 62px;
+        border-radius: 8px;
+        border-style: hidden;
+        background: #071597;
+        color: white;
+        font-size: 18px;
+        position: relative;
+        top: 138px;
+        left: -55px;
+    }
+
+}
+#beforelast>:nth-child(2){
+    position: relative;
+    left: 112px;
+    width: 900px;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 368px;
+    background-color: #DAA520;
+    position: relative;
+    top: 209px;
+    display: flex;
+
+    span{
+        display: inline-flex;
+        width: 41px;
+        height: 41px;
+        background: white;
+        border-radius: 20px;
+        border-style: none;
+        position: relative;
+        top: 13px;
+        left: -8px;
+    }
+
+
+
+}
+
+footer>:first-child{
+    height: 306px;
+    display: flex;
+    position: relative;
+    left: 170px;
+    top: 61px;
+    font-size: 20px;
+    color: white;
+    gap: 143px;
+
+    p{
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+
+    a{
+        color: white;
+    }
+}
+
+#logo2{
+    font-size: 18px;
+    height: 253px;
+    position: relative;
+    left: -64px;
+
+    p{
+        width: 310px;
+        height: 110px;
+        font-size: 16px;
+        position: relative;
+        top: 40px;
+        left: -7px;
+    }
+}
+#Company{   
+     height: 253px;
+     position: relative;
+     left: -124px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+#Links{
+    height: 253px;
+    position: relative;
+    left: -124px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+#Follow{
+    height: 253px;
+    position: relative;
+    left: -124px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#Follow>:nth-child(2){
+    display: flex;
+    gap: 11px;
+    i{
+        color: red;
+
+    }
+}
+#Follow>:nth-child(3){
+    display: flex;
+    gap: 11px;
+    i{
+        color: blue;
+
+    }}
+#Follow>:nth-child(4){
+    display: flex;
+    gap: 11px;
+    i{
+        color: blue;
+
+    }
+}
+#Follow>:nth-child(5){
+    display: flex;
+    gap: 11px;
+    i{
+        color: rgb(255, 0, 153);
+
+    }
+}

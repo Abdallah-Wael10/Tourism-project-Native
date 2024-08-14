@@ -1,0 +1,147 @@
+body{
+    background-color: #D5BEBE;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+section{
+    position: relative;
+    top: 19px;
+    left: 25px;
+    width: 1300px;
+    height: 904px;
+
+   
+}
+
+form{
+    position: relative;
+    top: -875px;
+    left: 326px;
+    width: 640px;
+    height: 842px;
+    background-color: #231E1EB2;
+
+    label{
+        color: white;
+    }
+    
+
+}
+
+form>:first-child{
+text-align: center;
+color: white;
+font-size: 20px;
+display: flex;
+position: relative;
+left: 273px;
+top: 200px;
+
+span{
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    border-radius: 40px;
+    border-style: none;
+    position: relative;
+    left: -21px;
+    top: -10px;
+}
+}
+form>:nth-child(2){
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    position: relative;
+    top: 204px;
+    left: 0px;
+
+}
+
+.emaill{
+    position: relative;
+    top: 250px;
+    left: -25px;
+
+    label{
+        position: relative;
+        top: -52px;
+        left: 113px;
+        font-size: 18px;
+    }
+    input{
+        width: 511px;
+        height: 62px;
+        border-radius: 12px;
+        border-style: none;
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+.pass{
+    position: relative;
+    top: 337px;
+    left: 9px;
+    label{
+        position: relative;
+        top: -52px;
+        left: 83px;
+        font-size: 18px;
+    }
+        input{
+        width: 511px;
+        height: 62px;
+        border-radius: 12px;
+        border-style: none;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+#box{
+    position: relative;
+    top: 358px;
+    left: 82px;
+    width: 24px;
+    height: 24px;
+}
+
+#forgetpass{
+    position: relative;
+    top: 354px;
+    left: 420px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login{
+    width: 510px;
+    height: 62px;
+    background-color: #071597;
+    position: relative;
+    top: 393px;
+    left: 77px;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    border-style: none;
+}
+
+.dont{
+    position: relative;
+    top: 403px;
+    left: 183px;
+    font-size: 20px;
+    color: white;
+
+    a{
+        color: #071597;
+    }
+}
